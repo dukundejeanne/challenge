@@ -1,0 +1,190 @@
+.btn{
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.buton >.success{
+    border-color: #4CAF50;
+    color: green;
+}
+ .buton >.success:hover{
+     background-color: #4CAF50;
+     color: white;
+ }
+ .buton >.info{
+    border-color: #2196F3;
+    color: dodgerblue;
+}
+.buton >.info:hover{
+     background-color: #2196F3;
+     color: white;
+ }
+ .buton >.bt{
+    border-color: skyblue;
+    color: skyblue;
+}
+.buton >.bt:hover{
+     background-color: #2196F3;
+     color: white;
+ }
+ .buton >.danger{
+    border-color: #f44336;
+    color: red;
+}
+.buton >.danger:hover{
+     background-color: #f44336;
+     color: white;
+ }
+ /* #------------------profile---------------------- */
+ 
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgba(0, 0, 0, .65);
+  }
+  
+  a:hover {
+    color: rgba(0, 0, 0, .45);
+  }
+  
+  .window,
+  .box,
+  ul,
+  li {
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+  }
+  
+  ul {
+    font-family: 'Fjalla One', sans-serif;
+    list-style-type: none;
+    text-transform: uppercase;
+  }
+  
+  li {
+    display: inline-block;
+  }
+  
+  img {
+    display: block;
+    width: 100%;
+  }
+  
+  
+  .overlay {
+    background: #158 url(https://goo.gl/DM5s4f) center no-repeat;
+    background-size: cover;
+    height: calc(100% + 40px);
+    margin: -20px;
+    position: relative;
+    width: calc(100% + 40px);
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    filter: blur(10px);
+  }
+  
+  .window {
+    box-shadow: 0 0 100px  rgba(0,0,0,0.25);
+    height: 300px;
+    width: 320px;
+    border: 1px solid grey;
+  }
+  
+  .header {
+    background: white;
+    color: #FFF;
+    /* height: 380px; */
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: inherit;
+  }
+    .header img {
+    border: 5px solid #4CAF50;
+    border-radius: 100%;
+    height: 140px;
+    margin: 4em auto 2.0em;
+    object-fit: cover;
+    width: 140px;
+  }
+  
+  .header h2 {
+    display: inline-block;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -2px;
+    margin: 0 auto;
+    padding: 0;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  }
+  
+  .header h4 {
+    color: rgba(17, 17, 17, 0.75);
+    display: block;
+    font-size: 10px;
+    margin: 0 auto;
+    padding: 5px 0 0;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+    text-transform: uppercase;
+  }
+  
+  /* __________form__________________ */
+  .profile{
+    display: flex;
+  }
+  .form1{
+      border: 1px solid grey;
+      display: flex;
+  }
+  .form-group{
+      width: 390px;
+
+  }
+  /* * {
+    box-sizing: border-box;
+  }
+   */
+  /* Style the search field */
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 30%;
+    background: #f1f1f1;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: grey;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
